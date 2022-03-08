@@ -12,11 +12,11 @@
 
 :root {
   --bg-color: black;
-  --bg-color-two: #2c2c6c;
+  --bg-color-two: #7700ff65;
   --color-primary: #6a00ff;
   --color-secondary: #e100ff;
   --color-yellow: #ffee00;
-  --color-light: rgba(255, 255, 255, 0.6);
+  --color-light: white;
 
   --transition: all 400ms ease;
 
@@ -61,6 +61,7 @@ h1 {
 
 section {
   margin-top: 8rem;
+  height: 100vh;
 }
 
 section > h2 {
@@ -79,7 +80,7 @@ section > h5 {
 }
 
 a {
-  color: var(--color-primary);
+  color: var(--color-yellow);
   transition: var(--transition);
 }
 
