@@ -3,11 +3,11 @@ import React from 'react';
 const CTA = () => {
   return (
     <div className='cta'>
-      <a href='' className='btn'>
-        Previous Work
-      </a>
       <a href='#contact' className='btn btn-primary'>
-        Reach out
+        <h4>Reach Out</h4>
+      </a>
+      <a href='' className='btn btn-primary'>
+        <h4>Previous Work</h4>
       </a>
     </div>
   );

@@ -1,0 +1,41 @@
+#contact {
+  height: 30vh;
+}
+
+.container.contact__container {
+  width: 58%;
+}
+
+.contact__options {
+  display: flex;
+  justify-content: space-around;
+}
+
+.contact__option {
+  background: var(--bg-color-two);
+  border: 1px solid transparent;
+  border-radius: 1rem;
+  padding: 1rem;
+  text-align: center;
+  transition: var(--transition);
+}
+
+.contact__option:hover {
+  border-color: white;
+  cursor: default;
+}
+
+.contact__option h4 {
+  color: white;
+}
+
+.contact__option a {
+  color: white;
+}
+
+/* Phones */
+@media screen and (max-width: 600px) {
+  .container.contact__container {
+    width: var(--container-width-sm);
+  }
+}

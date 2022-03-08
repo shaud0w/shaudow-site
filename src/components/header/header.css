@@ -21,10 +21,10 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 0.8rem;
+  gap: 1rem;
   position: absolute;
-  left: 1rem;
-  bottom: 30%;
+  right: 1rem;
+  bottom: 40%;
 }
 
 .me {
@@ -44,12 +44,12 @@ header {
 /* Tablets */
 @media screen and (max-width: 1024px) {
   header {
-    height: 68vh;
+    height: 80vh;
   }
 
   .header__socials,
   .scroll__down {
-    bottom: 3rem;
+    bottom: 30%;
   }
 }
 
@@ -66,5 +66,18 @@ header {
   .header__socials,
   .scroll__down {
     display: none;
+  }
+}
+
+/* Widescreen */
+@media screen and (min-width: 1300px) {
+  .header__socials {
+    bottom: 25%;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .header__socials {
+    bottom: 15%;
   }
 }

@@ -11,16 +11,11 @@ const Header = () => {
         <h5>Hi I&apos;m</h5>
         <h1>Shaudow</h1>
 
-        <CTA></CTA>
-
         <HeaderSocials />
-
-        <a href='#contact' className='scroll__down'>
-          Reach out
-        </a>
         <div className='me'>
           <img src={PFP} alt='Shaudow PFP' />
         </div>
+        <CTA></CTA>
       </div>
     </header>
   );
