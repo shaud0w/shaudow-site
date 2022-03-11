@@ -13,16 +13,14 @@ const Contact = () => {
           <article className='contact__option'>
             <a href='https://twitter.com/shaud0w'>
               <BsTwitter />
-            
-            <h4>DM on Twitter</h4>
-    </a>
+              <h4>DM on Twitter</h4>
+            </a>
           </article>
           <article className='contact__option'>
             <a href='https://discord.gg/UqTMmhanFk'>
               <FaDiscord />
-            
-            <h4>Join my Discord</h4>
-    </a>
+              <h4>Join my Discord</h4>
+            </a>
           </article>
         </div>
       </div>
